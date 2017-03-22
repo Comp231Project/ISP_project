@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Login</title>
+    <!--CSS -->
+     <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  
+  <body>
+  <!--Scripts -->
+    <script src ="/Scripts/lib/jquery/dist/jquery.min.js"></script>
+    <script src ="/js/bootstrap.min.js"></script>
+    <script src ="/Scripts/app.js"></script>
+
+
+<!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Intelligent Stock Picker</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                 <li>
+                        <a href=""><i class="fa fa-fw fa-power-off"></i>Login</a>
+                    </li>
+                    <li class="active">
+                        <a href="aboutUs.html"><i class="fa fa-fw fa-dashboard"></i>About Us</a>
+                    </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="profile.html"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </nav>
+ <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                   <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+           <h1>Please Login</h1>
+           <form method="post">
+                <fieldset class="form-group">
+                    <label>Username:</label>
+                    <input type="text" class="form-control" name="username" required autofocus/>
+                 </fieldset>
+                 <fieldset class="form-group">
+                    <label>Password:</label>
+                    <input type="password" class="form-control" name="password" required/>
+                    or <a href="register.html">Register</a>
+                </fieldset>
+                <fieldset class="form-group text-right">
+                    <input type="submit" class="btn btn-success" value="Log In"/>
+                    <a href="index.html">
+                        <input type="button" class="btn btn-warning" value="Cancel"/>
+                    </a>
+               </fieldset>
+            </form>
+         </div>
+       </div>
+                </div>
+                <!-- /.row -->
+
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+ <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
